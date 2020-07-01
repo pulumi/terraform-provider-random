@@ -53,8 +53,7 @@ The following arguments are supported:
 * `max` - (int) The maximum inclusive value of the range.
 
 * `keepers` - (Optional) Arbitrary map of values that, when changed, will
-  trigger a new id to be generated. See
-  [the main provider documentation](../index.html) for more information.
+  trigger a new id to be generated.
 
 * `seed` - (Optional) A custom seed to always produce the same value.
 

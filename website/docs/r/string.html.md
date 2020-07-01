@@ -15,8 +15,8 @@ This resource *does* use a cryptographic random number generator.
 
 Historically this resource's intended usage has been ambiguous as the original example
 used it in a password. For backwards compatibility it will
-continue to exist. For unique ids please use [random_id](id.html), for sensitive
-random values please use [random_password](password.html).
+continue to exist. For unique ids please use the `random_id` resource, for sensitive
+random values please use the `random_password` resource.
 
 ## Example Usage
 
@@ -64,8 +64,7 @@ The following arguments are supported:
   characters to be used in generation.
 
 * `keepers` - (Optional) Arbitrary map of values that, when changed, will
-  trigger a new id to be generated. See
-  [the main provider documentation](../index.html) for more information.
+  trigger a new id to be generated.
 
 ## Attributes Reference
 

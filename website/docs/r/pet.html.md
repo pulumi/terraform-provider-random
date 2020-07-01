@@ -50,8 +50,7 @@ The result of the above will set the Name of the AWS Instance to
 The following arguments are supported:
 
 * `keepers` - (Optional) Arbitrary map of values that, when changed, will
-  trigger a new id to be generated. See
-  [the main provider documentation](../index.html) for more information.
+  trigger a new id to be generated.
 
 * `length` - (Optional) The length (in words) of the pet name.
 

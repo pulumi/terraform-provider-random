@@ -57,8 +57,7 @@ The following arguments are supported:
   minimum value is 1, which produces eight bits of randomness.
 
 * `keepers` - (Optional) Arbitrary map of values that, when changed, will
-  trigger a new id to be generated. See
-  [the main provider documentation](../index.html) for more information.
+  trigger a new id to be generated.
 
 * `prefix` - (Optional) Arbitrary string to prefix the output value with. This
   string is supplied as-is, meaning it is not guaranteed to be URL-safe or

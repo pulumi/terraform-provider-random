@@ -41,13 +41,12 @@ The following arguments are supported:
   of items in the input list.
 
 * `keepers` - (Optional) Arbitrary map of values that, when changed, will
-  trigger a new id to be generated. See
-  [the main provider documentation](../index.html) for more information.
+  trigger a new id to be generated.
 
 * `seed` - (Optional) Arbitrary string with which to seed the random number
   generator, in order to produce less-volatile permutations of the list.
   **Important:** Even with an identical seed, it is not guaranteed that the
-  same permutation will be produced across different versions of Terraform.
+  same permutation will be produced across different versions of the provider.
   This argument causes the result to be *less volatile*, but not fixed for
   all time.
 

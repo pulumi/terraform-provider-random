@@ -33,8 +33,7 @@ resource "azurerm_resource_group" "test" {
 The following arguments are supported:
 
 * `keepers` - (Optional) Arbitrary map of values that, when changed, will
-  trigger a new uuid to be generated. See
-  [the main provider documentation](../index.html) for more information.
+  trigger a new uuid to be generated.
 
 ## Attributes Reference
 
