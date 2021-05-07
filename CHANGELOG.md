@@ -1,3 +1,13 @@
+## 3.1.0 (February 19, 2021)
+
+Binary releases of this provider now include the darwin-arm64 platform. This version contains no further changes.
+
+## 3.0.1 (January 12, 2021)
+
+BUG FIXES:
+
+* `resource_integer`: Integers in state that do not cleanly fit into float64s no longer lose their precision ([#132](https://github.com/terraform-providers/terraform-provider-random/issues/132))
+
 ## 3.0.0 (October 09, 2020)
 
 Binary releases of this provider will now include the linux-arm64 platform.
@@ -6,6 +16,10 @@ BREAKING CHANGES:
 
 * Upgrade to version 2 of the Terraform Plugin SDK, which drops support for Terraform 0.11. This provider will continue to work as expected for users of Terraform 0.11, which will not download the new version. ([#118](https://github.com/terraform-providers/terraform-provider-random/issues/118))
 * Remove deprecated `b64` attribute ([#118](https://github.com/terraform-providers/terraform-provider-random/issues/118))
+
+## 2.3.1 (October 26, 2020)
+
+NOTES: This version is identical to v2.3.0, but has been compiled using Go v1.14.5 to fix https://github.com/hashicorp/terraform-provider-random/issues/120.
 
 ## 2.3.0 (July 07, 2020)
 
