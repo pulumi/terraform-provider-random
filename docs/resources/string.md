@@ -14,7 +14,7 @@ The resource `random_string` generates a random permutation of alphanumeric char
 
 This resource *does* use a cryptographic random number generator.
 
-Historically this resource's intended usage has been ambiguous as the original example used it in a password. For backwards compatibility it will continue to exist. For unique ids please use [random_id](id.html), for sensitive random values please use [random_password](password.html).
+Historically this resource's intended usage has been ambiguous as the original example used it in a password. For backwards compatibility it will continue to exist. For unique ids please use random_id, for sensitive random values please use random_password.
 
 ## Example Usage
 
@@ -35,7 +35,7 @@ resource "random_string" "random" {
 
 ### Optional
 
-- **keepers** (Map of String) Arbitrary map of values that, when changed, will trigger recreation of resource. See [the main provider documentation](../index.html) for more information.
+- **keepers** (Map of String) Arbitrary map of values that, when changed, will trigger recreation of resource. See the main provider documentation for more information.
 - **lower** (Boolean) Include lowercase alphabet characters in the result.
 - **min_lower** (Number) Minimum number of lowercase alphabet characters in the result.
 - **min_numeric** (Number) Minimum number of numeric characters in the result.

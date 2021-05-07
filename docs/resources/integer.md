@@ -50,7 +50,7 @@ resource "aws_alb_listener_rule" "main" {
 
 ### Optional
 
-- **keepers** (Map of String) Arbitrary map of values that, when changed, will trigger recreation of resource. See [the main provider documentation](../index.html) for more information.
+- **keepers** (Map of String) Arbitrary map of values that, when changed, will trigger recreation of resource. See the main provider documentation for more information.
 - **seed** (String) A custom seed to always produce the same value.
 
 ### Read-Only

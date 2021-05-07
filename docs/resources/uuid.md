@@ -32,7 +32,7 @@ resource "azurerm_resource_group" "test" {
 
 ### Optional
 
-- **keepers** (Map of String) Arbitrary map of values that, when changed, will trigger recreation of resource. See [the main provider documentation](../index.html) for more information.
+- **keepers** (Map of String) Arbitrary map of values that, when changed, will trigger recreation of resource. See the main provider documentation for more information.
 
 ### Read-Only
 

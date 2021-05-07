@@ -3,13 +3,13 @@
 page_title: "random_password Resource - terraform-provider-random"
 subcategory: ""
 description: |-
-  Identical to random_string string.html with the exception that the result is treated as sensitive and, thus, not displayed in console output. Read more about sensitive data handling in the Terraform documentation https://www.terraform.io/docs/language/state/sensitive-data.html.
+  Identical to random_string string.html with the exception that the result is treated as sensitive and, thus, not displayed in console output.
   This resource does use a cryptographic random number generator.
 ---
 
 # random_password (Resource)
 
-Identical to [random_string](string.html) with the exception that the result is treated as sensitive and, thus, _not_ displayed in console output. Read more about sensitive data handling in the [Terraform documentation](https://www.terraform.io/docs/language/state/sensitive-data.html).
+Identical to random_string with the exception that the result is treated as sensitive and, thus, _not_ displayed in console output.
 
 This resource *does* use a cryptographic random number generator.
 
@@ -40,7 +40,7 @@ resource "aws_db_instance" "example" {
 
 ### Optional
 
-- **keepers** (Map of String) Arbitrary map of values that, when changed, will trigger recreation of resource. See [the main provider documentation](../index.html) for more information.
+- **keepers** (Map of String) Arbitrary map of values that, when changed, will trigger recreation of resource. See the main provider documentation for more information.
 - **lower** (Boolean) Include lowercase alphabet characters in the result.
 - **min_lower** (Number) Minimum number of lowercase alphabet characters in the result.
 - **min_numeric** (Number) Minimum number of numeric characters in the result.
@@ -53,7 +53,7 @@ resource "aws_db_instance" "example" {
 
 ### Read-Only
 
-- **id** (String) A static value used internally by Terraform, this should not be referenced in configurations.
+- **id** (String) A static value used internally by the provider, this should not be referenced in configurations.
 - **result** (String, Sensitive) The generated random string.
 
 ## Import
