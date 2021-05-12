@@ -52,12 +52,6 @@ func resourcePet() *schema.Resource {
 				Default:     "-",
 				ForceNew:    true,
 			},
-
-			"id": {
-				Description: "The random pet name",
-				Type:        schema.TypeString,
-				Computed:    true,
-			},
 		},
 	}
 }

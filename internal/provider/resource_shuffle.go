@@ -61,12 +61,6 @@ func resourceShuffle() *schema.Resource {
 					Type: schema.TypeString,
 				},
 			},
-
-			"id": {
-				Description: "A static value used internally by Terraform, this should not be referenced in configurations.",
-				Type:        schema.TypeString,
-				Computed:    true,
-			},
 		},
 	}
 }
